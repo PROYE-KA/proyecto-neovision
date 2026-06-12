@@ -40,7 +40,7 @@ Desarrollar una plataforma web que registre entradas y salidas de inventario en 
 | Nombre          | Rol             |
 | --------------- | --------------- |
 | Mario Puentes   | Project Manager |
-| Edwin Garcia    | Dev OPS        |
+| Edwin Cortez    | Dev OPS        |
 | Jonatan Davila  | Frontend Dev    |
 | Edwin Garcia    | Backend Dev     |
 | Jovanny Esquivel| QA Engineer     |
