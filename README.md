@@ -39,11 +39,11 @@ Desarrollar una plataforma web que registre entradas y salidas de inventario en 
 
 | Nombre          | Rol             |
 | --------------- | --------------- |
-| Carlos Mendoza  | Project Manager |
-| Andrea Ríos     | Analista        |
-| Luis Paredes    | Frontend Dev    |
-| Sofía Gutiérrez | Backend Dev     |
-| Marco Ibáñez    | QA Engineer     |
+| Mario Puentes   | Project Manager |
+| Edwin Garcia    | Dev OPS        |
+| Jonatan Davila  | Frontend Dev    |
+| Edwin Garcia    | Backend Dev     |
+| Jovanny Esquivel| QA Engineer     |
 
 ## Estructura del Repositorio
 
