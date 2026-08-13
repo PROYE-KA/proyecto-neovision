@@ -1,89 +1,223 @@
-# Sistema-AutoStock
+# NeoVision AR OS
 
-## AutoStock – Sistema de Gestión de Inventario para Refacciones Automotrices
+<p align="center">
+  <strong>Prototipo de interfaz para gafas inteligentes de realidad aumentada enfocadas en videojuegos</strong>
+</p>
 
-Plataforma web para el control en tiempo real de entradas, salidas y alertas de reposición de inventario.
+---
 
-## Descripción del Proyecto
+## 📌 Descripción
 
-### Problema a Resolver
+**NeoVision AR OS** es un prototipo interactivo de interfaz de usuario (UI/UX) diseñado en Figma para unas gafas inteligentes de realidad aumentada orientadas al gaming.
 
-Una empresa dedicada a la venta de piezas automotrices pierde dinero de dos formas: compra de más y acumula stock muerto, o compra de menos y pierde ventas por falta de producto. El inventario se lleva en hojas de cálculo o en sistemas que nadie actualiza en tiempo real, así que nadie sabe realmente cuánto hay en bodega hasta que es tarde.
+El concepto busca proporcionar información relacionada con los videojuegos directamente en el campo de visión del jugador, reduciendo la necesidad de utilizar otros dispositivos durante una sesión de juego.
 
-El resultado son pedidos urgentes, sobrecostos de almacenamiento y clientes que se van con la competencia.
+El prototipo simula un sistema de interfaz futurista que permite consultar estadísticas, notificaciones, biblioteca de videojuegos, comandos de voz, información del dispositivo y una interfaz HUD de realidad aumentada.
 
-### Objetivo General
+> **Importante:** NeoVision AR OS es un prototipo conceptual. No representa un sistema operativo real ni una aplicación funcional para gafas inteligentes.
 
-Desarrollar una plataforma web que registre entradas y salidas de inventario en tiempo real, genere alertas automáticas de reposición y produzca reportes que le indiquen al negocio qué producto necesita y cuándo reabastecerlo, sin depender de alguien que recuerde actualizar una hoja de cálculo.
+---
 
-## Alcance Preliminar
+## 🎯 Objetivo
 
-* Registro de productos con categorías y proveedores.
-* Control de entradas y salidas de inventario.
-* Panel de alertas cuando el stock baja de la cantidad definida.
-* Reportes de productos más vendidos y stock mínimo.
-* Gestión de usuarios con roles.
-* API REST para integración con sistemas de punto de venta.
-* Módulo de exportación a Excel y PDF.
+El objetivo principal de NeoVision AR OS es diseñar una experiencia de usuario intuitiva para un wearable enfocado en videojuegos y realidad aumentada.
 
-## Tecnologías
+El sistema busca:
 
-* Frontend: React 18 + Vite + Tailwind CSS
-* Backend: Node.js + Express + JWT
-* Base de datos: PostgreSQL 15
-* Hosting: AWS EC2 + S3
-* Repositorio: GitHub
-* CI/CD: GitHub Actions
+- Reducir las interrupciones durante las sesiones de juego.
+- Mostrar información relevante de manera rápida.
+- Facilitar el acceso a notificaciones.
+- Mostrar estadísticas del jugador.
+- Simular una interfaz HUD de realidad aumentada.
+- Permitir la interacción mediante comandos de voz.
+- Mostrar el estado de las gafas inteligentes.
+- Proporcionar una experiencia visual futurista y orientada al gaming.
 
-## Integrantes
+---
 
-| Nombre          | Rol             |
-| --------------- | --------------- |
-| Mario Puentes   | Project Manager |
-| Edwin Cortez    | Dev OPS        |
-| Jonatan Davila  | Frontend Dev    |
-| Edwin Garcia    | Backend Dev     |
-| Jovanny Esquivel| QA Engineer     |
+## 🥽 Tipo de producto
 
-## Estructura del Repositorio
+**Tipo:** Wearable
+
+**Dispositivo:** Gafas inteligentes de realidad aumentada (AR Glasses)
+
+**Categoría:**
+- Gaming
+- Realidad aumentada
+- Tecnología wearable
+- Interfaz de usuario
+
+---
+
+## ✨ Características principales
+
+El prototipo cuenta con **11 pantallas interactivas**:
+
+### 1. Welcome
+
+Pantalla inicial del sistema.
+
+Incluye:
+
+- Identidad de NeoVision AR OS.
+- Ilustración de las gafas AR.
+- Botón `Get Started`.
+
+---
+
+### 2. Pairing
+
+Pantalla destinada al emparejamiento de las gafas.
+
+Incluye:
+
+- Estado de conexión Bluetooth.
+- Animación de conexión.
+- Indicadores del proceso de emparejamiento.
+
+---
+
+### 3. Dashboard
+
+Panel principal del sistema.
+
+Permite consultar:
+
+- Juego activo.
+- Estado del dispositivo.
+- Gaming Mode.
+- Accesos rápidos.
+- Estado de conexión.
+
+---
+
+### 4. AR HUD Preview
+
+Simulación de la información que el usuario podría visualizar mediante las gafas.
+
+Incluye:
+
+- Barra de vida.
+- Barra de escudo.
+- Mini mapa.
+- Crosshair.
+- Temporizador.
+- Estado de voz del equipo.
+- Contador de FPS.
+
+---
+
+### 5. Notifications
+
+Centro de notificaciones.
+
+Permite visualizar:
+
+- Invitaciones de amigos.
+- Logros desbloqueados.
+- Mensajes.
+- Alertas.
+
+También incluye acciones como:
+
+- `Accept`
+- `Decline`
+
+---
+
+### 6. Analytics
+
+Panel de estadísticas y rendimiento.
+
+Muestra:
+
+- Frecuencia cardíaca.
+- Nivel de estrés.
+- Fatiga visual.
+- Tiempo de sesión.
+- Tiempo de reacción.
+- Estadísticas diarias.
+- Gráfica de rendimiento.
+
+---
+
+### 7. Settings
+
+Panel de configuración.
+
+Permite visualizar controles para:
+
+- Transparencia del HUD.
+- Brillo.
+- Notificaciones.
+- Tema visual.
+- Idioma.
+
+---
+
+### 8. Voice Commands
+
+Interfaz para comandos de voz.
+
+Incluye:
+
+- Botón de micrófono.
+- Animación de escucha.
+- Forma de onda.
+- Comandos sugeridos.
+
+---
+
+### 9. Game Library
+
+Biblioteca de videojuegos.
+
+Incluye:
+
+- Juegos recientes.
+- Juegos favoritos.
+- Accesos para iniciar juegos.
+- Indicadores de compatibilidad con AR.
+- Calificaciones.
+
+---
+
+### 10. Profile
+
+Perfil del jugador.
+
+Incluye:
+
+- Avatar.
+- Nombre de usuario.
+- Barra de experiencia (XP).
+- Logros.
+- Plataformas de videojuegos conectadas.
+
+---
+
+### 11. Battery & Device Health
+
+Estado de las gafas.
+
+Muestra:
+
+- Porcentaje de batería.
+- Tiempo restante estimado.
+- Estado de componentes.
+- Temperatura.
+- Versión del firmware.
+- Opción de actualización.
+
+---
+
+## 🧭 Flujo de navegación
+
+El flujo principal del prototipo comienza en:
 
 ```text
-AutoStock/
-├── Documentacion/
-├── Codigo/
-│   ├── frontend/
-│   └── backend/
-├── Recursos/
-└── README.md
-```
-
-
-## Cómo correr el proyecto localmente
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/equipo/autostock
-   ```
-
-2. Iniciar el backend:
-
-   ```bash
-   cd Codigo/backend
-   npm install
-   npm run dev
-   ```
-
-3. Iniciar el frontend:
-
-   ```bash
-   cd Codigo/frontend
-   npm install
-   npm run dev
-   ```
-
-4. Crear el archivo `.env` con las variables requeridas (ver `.env.example`).
-
-2. cd Codigo/backend && npm install && npm run dev
-3. cd Codigo/frontend && npm install && npm run dev
-4. Crear archivo .env con las variables requeridas (ver .env.example)
+Welcome
+   ↓
+Pairing
+   ↓
+Dashboard
