@@ -1,6 +1,3 @@
-
----
-
 # MANUAL_USUARIO.md
 
 
