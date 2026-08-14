@@ -1,9 +1,9 @@
 
 ---
 
-# 2. `MANUAL_USUARIO.md`
+# `MANUAL_USUARIO.md`
 
-Este sería el manual que entregas como **manual de usuario**:
+
 
 ```markdown
 # Manual de Usuario
