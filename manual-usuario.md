@@ -1,4 +1,4 @@
-# MANUAL_USUARIO.md
+# MANUAL_USUARIO
 
 
 
